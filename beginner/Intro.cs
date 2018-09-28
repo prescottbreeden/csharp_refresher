@@ -2,7 +2,7 @@ using System;
 
 namespace basics
 {
-    class Intro
+    public class Intro
     {
         private const float V = 20.95f;
         public static void TrashPanda()

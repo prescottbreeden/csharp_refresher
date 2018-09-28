@@ -1,6 +1,6 @@
 namespace basics
 {
-    class Operators
+    public class Operators
     {
         public static void Overview() {
             // Operators...

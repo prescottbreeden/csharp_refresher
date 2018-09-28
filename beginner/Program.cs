@@ -1,4 +1,4 @@
-﻿using System;
+﻿using basics.Math;
 
 namespace basics
 {
@@ -10,12 +10,21 @@ namespace basics
             // Intro.TrashPanda();
             // Types.TypeConversion();
             // Operators.Overview();
-            int result = Calculator.Add(2, 3);
-            System.Console.WriteLine(result);
+            // int result = Calculator.Add(2, 3); // <~~ static, no object creation
+            
+            Calculator TI82 = new Calculator();
+            TI82.Add(-2, 8);
+            TI82.ReadDisplay();
 
-            int result2 = Calculator.Add(10, -2);
-            System.Console.WriteLine(result2);
+            Person john = new Person();
+            john.FirstName = "John";
+            john.LastName = "Connor";
+            john.Introduce();
 
+            RgbColor balls = new RgbColor();
+            balls.Red = 200;
+            balls.Green = 100;
+            balls.Blue = 35;
         }
 
     }
