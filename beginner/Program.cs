@@ -13,6 +13,9 @@ namespace basics
             int result = Calculator.Add(2, 3);
             System.Console.WriteLine(result);
 
+            int result2 = Calculator.Add(10, -2);
+            System.Console.WriteLine(result2);
+
         }
 
     }
