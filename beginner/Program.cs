@@ -25,6 +25,13 @@ namespace basics
             balls.Red = 200;
             balls.Green = 100;
             balls.Blue = 35;
+
+            DeclaringArrays panda = new DeclaringArrays();
+            panda.SetEachValue();
+            panda.PrintMe();
+            panda.SetOnInit();
+            panda.PrintMe();
+
         }
 
     }
