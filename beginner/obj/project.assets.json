@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/prescott/Documents/code/udemy/csharp/basics/basics.csproj",
+      "projectUniqueName": "/home/prescott/Documents/code/udemy/csharp/beginner/basics.csproj",
       "projectName": "basics",
-      "projectPath": "/home/prescott/Documents/code/udemy/csharp/basics/basics.csproj",
+      "projectPath": "/home/prescott/Documents/code/udemy/csharp/beginner/basics.csproj",
       "packagesPath": "/home/prescott/.nuget/packages/",
-      "outputPath": "/home/prescott/Documents/code/udemy/csharp/basics/obj/",
+      "outputPath": "/home/prescott/Documents/code/udemy/csharp/beginner/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
