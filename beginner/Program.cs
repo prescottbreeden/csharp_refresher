@@ -10,7 +10,8 @@ namespace basics
             // Intro.TrashPanda();
             // Types.TypeConversion();
             // Operators.Overview();
-            Calculator.Add(2, 3);
+            int result = Calculator.Add(2, 3);
+            System.Console.WriteLine(result);
 
         }
 
